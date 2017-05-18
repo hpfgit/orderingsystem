@@ -9,6 +9,9 @@ class IndexController extends Controller {
             $model = M('user');
             $username = $_POST['username'];
             $userpass = $_POST['userpass'];
+            if (!$this->check_verify($_POST['verify'],1)) {
+                $this->error("验证码不正确","index",1);
+            }
             $ret = $model->where("username='$username' AND userpass='$userpass'")->select();
             if ($ret) {
                 if ($ret[0]['jurisdiction'] == "管理员") {
@@ -20,11 +23,10 @@ class IndexController extends Controller {
                     return false;
                 }
             } else {
-                $this->error("用户名或密码错误，请重新填写", "index", 30);
+                $this->error("用户名或密码错误，请重新填写", "index", 1);
             }
         }
         $this->display('login');
-//        $this->Verify();
     }
     public function login() {
         $model = M('order');
@@ -397,7 +399,12 @@ class IndexController extends Controller {
     public function Verify() {
         ob_clean();
         $Verify = new \Think\Verify();
-        $Verify->entry();
+        $Verify->entry(1);
+    }
+    // 检测验证码
+    public function check_verify($code, $id = ''){
+        $verify = new \Think\Verify();
+        return $verify->check($code, $id);
     }
     //获取地址
     public function GetUrl() {

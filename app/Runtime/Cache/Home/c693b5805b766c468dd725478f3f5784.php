@@ -36,7 +36,7 @@
             <div class="form-group">
                 <label for="inputPassword3" class="col-sm-2 control-label">验证码</label>
                 <div class="col-sm-10">
-                    <input type="password" class="form-control" name="userpass" id="inputPassword4" placeholder="请输入验证码">
+                    <input type="text" class="form-control" name="verify" id="inputPassword4" placeholder="请输入验证码">
                 </div>
             </div>
             <div class="form-group">

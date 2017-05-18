@@ -1573,3 +1573,659 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
 
+[ 2017-05-18T20:50:25+08:00 ] ::1 /order/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+
+[ 2017-05-18T20:50:25+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-05-18T20:50:29+08:00 ] ::1 /order/index.php/index/Verify?0.8858245434914558
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+
+[ 2017-05-18T20:50:29+08:00 ] ::1 /order/index.php/index/Verify?0.8858245434914558?0.09764162067747817
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+
+[ 2017-05-18T20:50:40+08:00 ] ::1 /order/index.php/index/Verify?0.8858245434914558?0.09764162067747817?0.4904313713327908
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-05-18T20:50:40+08:00 ] ::1 /order/index.php/index/Verify?0.8858245434914558?0.09764162067747817?0.4904313713327908?0.41371846252791
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2017-05-18T20:57:55+08:00 ] ::1 /order/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+
+[ 2017-05-18T20:57:55+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+
+[ 2017-05-18T20:57:58+08:00 ] ::1 /order/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-05-18T20:57:58+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+
+[ 2017-05-18T20:58:25+08:00 ] ::1 /order/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2017-05-18T20:58:25+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+
+[ 2017-05-18T20:58:28+08:00 ] ::1 /order/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+
+[ 2017-05-18T20:58:28+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+
+[ 2017-05-18T20:58:32+08:00 ] ::1 /order/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-05-18T20:58:32+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001116s ]
+
+[ 2017-05-18T20:58:34+08:00 ] ::1 /order/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+
+[ 2017-05-18T20:58:34+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001285s ]
+
+[ 2017-05-18T20:58:34+08:00 ] ::1 /order/index.php/index/Verify?0.31574289009440726
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-05-18T20:58:36+08:00 ] ::1 /order/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+
+[ 2017-05-18T20:58:36+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2017-05-18T20:59:07+08:00 ] ::1 /order/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+
+[ 2017-05-18T20:59:07+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000126s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001455s ]
+
+[ 2017-05-18T20:59:08+08:00 ] ::1 /order/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+
+[ 2017-05-18T20:59:08+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002002s ]
+
+[ 2017-05-18T20:59:10+08:00 ] ::1 /order/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-05-18T20:59:10+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2017-05-18T20:59:56+08:00 ] ::1 /order/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-05-18T20:59:56+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+
+[ 2017-05-18T20:59:58+08:00 ] ::1 /order/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+
+[ 2017-05-18T20:59:58+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+
+[ 2017-05-18T21:00:00+08:00 ] ::1 /order/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-05-18T21:00:00+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2017-05-18T21:00:24+08:00 ] ::1 /order/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-05-18T21:00:24+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000872s ]
+
+[ 2017-05-18T21:00:36+08:00 ] ::1 /order/index.php/index/Verify?0.24537798037507041
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+
+[ 2017-05-18T21:00:37+08:00 ] ::1 /order/index.php/index/Verify?0.24537798037507041?0.5044458326070862
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+
+[ 2017-05-18T21:05:15+08:00 ] ::1 /order/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000938s ]
+
+[ 2017-05-18T21:05:16+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001693s ]
+
+[ 2017-05-18T21:05:21+08:00 ] ::1 /order/index.php/index/Verify?0.7081600927638578
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2017-05-18T21:05:38+08:00 ] ::1 /order/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-05-18T21:05:38+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001735s ]
+
+[ 2017-05-18T21:05:49+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-05-18T21:05:49+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+
+[ 2017-05-18T21:06:30+08:00 ] ::1 /order/index.php/index/Verify?0.1296196927676765
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2017-05-18T21:06:31+08:00 ] ::1 /order/index.php/index/Verify?0.1296196927676765?0.47695960612187216
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-05-18T21:06:39+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2017-05-18T21:06:40+08:00 ] ::1 /order/index.php/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+
+[ 2017-05-18T21:16:13+08:00 ] ::1 /order/index.php/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+
+[ 2017-05-18T21:16:16+08:00 ] ::1 /order/index.php/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+
+[ 2017-05-18T21:16:16+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+
+[ 2017-05-18T21:16:19+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+
+[ 2017-05-18T21:16:19+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+
+[ 2017-05-18T21:16:22+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002212s ]
+
+[ 2017-05-18T21:16:22+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+
+[ 2017-05-18T21:16:37+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+
+[ 2017-05-18T21:16:38+08:00 ] ::1 /order/index.php/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000997s ]
+
+[ 2017-05-18T21:17:39+08:00 ] ::1 /order/index.php/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+
+[ 2017-05-18T21:17:46+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2017-05-18T21:17:48+08:00 ] ::1 /order/index.php/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001123s ]
+
+[ 2017-05-18T21:19:21+08:00 ] ::1 /order/index.php/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+
+[ 2017-05-18T21:19:31+08:00 ] ::1 /order/index.php/index/Verify?0.5948234049911756
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+
+[ 2017-05-18T21:19:37+08:00 ] ::1 /order/index.php/index/Verify?0.5948234049911756?0.8429320700999674
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2017-05-18T21:19:48+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+
+[ 2017-05-18T21:19:49+08:00 ] ::1 /order/index.php/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001826s ]
+
+[ 2017-05-18T21:20:40+08:00 ] ::1 /order/index.php/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+
+[ 2017-05-18T21:20:41+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+
+[ 2017-05-18T21:20:45+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-05-18T21:20:46+08:00 ] ::1 /order/index.php/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+
+[ 2017-05-18T21:21:34+08:00 ] ::1 /order/index.php/index/Verify?0.2919499447101408
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-05-18T21:21:35+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+
+[ 2017-05-18T21:21:36+08:00 ] ::1 /order/index.php/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+
+[ 2017-05-18T21:21:39+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+
+[ 2017-05-18T21:21:41+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000210s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001884s ]
+
+[ 2017-05-18T21:21:41+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+
+[ 2017-05-18T21:22:44+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+
+[ 2017-05-18T21:22:44+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+
+[ 2017-05-18T21:22:49+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+
+[ 2017-05-18T21:22:50+08:00 ] ::1 /order/index.php/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+
+[ 2017-05-18T21:22:54+08:00 ] ::1 /order/index.php/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+
+[ 2017-05-18T21:22:57+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001414s ]
+
+[ 2017-05-18T21:22:57+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000205s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002503s ]
+
+[ 2017-05-18T21:24:42+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001959s ]
+
+[ 2017-05-18T21:24:43+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001598s ]
+
+[ 2017-05-18T21:24:46+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-05-18T21:24:51+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001400s ]
+
+[ 2017-05-18T21:24:52+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+
+[ 2017-05-18T21:24:58+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2017-05-18T21:25:37+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+
+[ 2017-05-18T21:26:35+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001274s ]
+
+[ 2017-05-18T21:26:35+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+
+[ 2017-05-18T21:26:39+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-05-18T21:26:47+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+
+[ 2017-05-18T21:27:39+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+
+[ 2017-05-18T21:27:42+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+
+[ 2017-05-18T21:27:42+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2017-05-18T21:27:46+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2017-05-18T21:31:49+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+
+[ 2017-05-18T21:31:50+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-05-18T21:31:50+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+
+[ 2017-05-18T21:31:54+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-05-18T21:32:10+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+
+[ 2017-05-18T21:32:13+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-05-18T21:32:17+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+
+[ 2017-05-18T21:32:33+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+
+[ 2017-05-18T21:32:35+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-05-18T21:32:39+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002901s ]
+
+[ 2017-05-18T21:32:40+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+
+[ 2017-05-18T21:34:09+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2017-05-18T21:34:09+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+
+[ 2017-05-18T21:34:13+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-05-18T21:34:16+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001624s ]
+
+[ 2017-05-18T21:34:28+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-05-18T21:34:31+08:00 ] ::1 /order/index.php/Index/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+ERR: 非法操作:1
+
+[ 2017-05-18T21:34:36+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-05-18T21:34:37+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-05-18T21:34:38+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001438s ]
+
+[ 2017-05-18T21:34:57+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+
+[ 2017-05-18T21:34:58+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001488s ]
+
+[ 2017-05-18T21:34:59+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001197s ]
+
+[ 2017-05-18T21:35:16+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2017-05-18T21:35:17+08:00 ] ::1 /order/index.php/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001124s ]
+
+[ 2017-05-18T21:35:24+08:00 ] ::1 /order/index.php/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-05-18T21:35:25+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-05-18T21:35:26+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-05-18T21:35:26+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+
+[ 2017-05-18T21:35:34+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-05-18T21:35:35+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+
+[ 2017-05-18T21:35:35+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+
+[ 2017-05-18T21:35:37+08:00 ] ::1 /order/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-05-18T21:35:37+08:00 ] ::1 /order/index.php/index/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+
