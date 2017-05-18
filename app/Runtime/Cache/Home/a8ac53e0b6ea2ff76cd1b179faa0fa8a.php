@@ -31,7 +31,7 @@
                                     <tr>
                                         <td>餐桌号</td><td>菜单</td><td>单价</td><td>数量</td><td>总价</td><td>备注</td><td>状态</td>
                                     </tr>
-                                    <?php $__FOR_START_22599__=$page;$__FOR_END_22599__=$pagenum;for($i=$__FOR_START_22599__;$i < $__FOR_END_22599__;$i+=1){ $td = ''; $count = count($arr[$i]); if ($count > 1) { $td .= "<tr>"; $td .= "<td>".$arr[$i][0]['dishesuser']."</td>"; $td .= "<td>".$arr[$i][0]['dishes']."</td>"; $td .= "<td>".$arr[$i][0]['price']."</td>"; $td .= "<td>".$arr[$i][0]['number']."</td>"; $td .= "<td>".$arr[$i][0]['price']*$arr[$i][0]['number']."</td>"; $td .= "<td>".$arr[$i][0]['beizhu']."</td>"; if ($arr[$i][0]['state'] == 1) { $td .= "<td>订单已完成</td>"; } else { $td .= "<td>订单未完成</td>"; } $td .= "</tr>"; for ($j=1;$j<$count;$j++) { $td .= "<tr>"; $td .= "<td></td>"; $td .= "<td>".$arr[$i][$j]['dishes']."</td>"; $td .= "<td>".$arr[$i][$j]['price']."</td>"; $td .= "<td>".$arr[$i][$j]['number']."</td>"; $td .= "<td>".$arr[$i][$j]['price']*$arr[$i][$j]['number']."</td>"; $td .= "<td>".$arr[$i][$j]['beizhu']."</td>"; if ($arr[$i][$j]['state'] == 1) { $td .= "<td>订单已完成</td>"; } else { $td .= "<td>订单未完成</td>"; } $td .= "</tr>"; } } else { foreach ($arr[$i] as $value) { $td .= "<tr>"; $td .= "<td>".$value['dishesuser']."</td>"; $td .= "<td>".$value['dishes']."</td>"; $td .= "<td>".$value['price']."</td>"; $td .= "<td>".$value['number']."</td>"; $td .= "<td>".$value['number']*$value['price']."</td>"; $td .= "<td>".$value['beizhu']."</td>"; if ($value['state'] == 1) { $td .= "<td>订单已完成</td>"; } else { $td .= "<td>订单未完成</td>"; } $td .= "</tr>"; } } echo $td; } ?>
+                                    <?php $__FOR_START_10122__=$page;$__FOR_END_10122__=$pagenum;for($i=$__FOR_START_10122__;$i < $__FOR_END_10122__;$i+=1){ $td = ''; $count = count($arr[$i]); if ($count > 1) { $td .= "<tr>"; $td .= "<td>".$arr[$i][0]['dishesuser']."</td>"; $td .= "<td>".$arr[$i][0]['dishes']."</td>"; $td .= "<td>".$arr[$i][0]['price']."</td>"; $td .= "<td>".$arr[$i][0]['number']."</td>"; $td .= "<td>".$arr[$i][0]['price']*$arr[$i][0]['number']."</td>"; $td .= "<td>".$arr[$i][0]['beizhu']."</td>"; if ($arr[$i][0]['state'] == 1) { $td .= "<td>订单已完成</td>"; } else { $td .= "<td>订单未完成</td>"; } $td .= "</tr>"; for ($j=1;$j<$count;$j++) { $td .= "<tr>"; $td .= "<td></td>"; $td .= "<td>".$arr[$i][$j]['dishes']."</td>"; $td .= "<td>".$arr[$i][$j]['price']."</td>"; $td .= "<td>".$arr[$i][$j]['number']."</td>"; $td .= "<td>".$arr[$i][$j]['price']*$arr[$i][$j]['number']."</td>"; $td .= "<td>".$arr[$i][$j]['beizhu']."</td>"; if ($arr[$i][$j]['state'] == 1) { $td .= "<td>订单已完成</td>"; } else { $td .= "<td>订单未完成</td>"; } $td .= "</tr>"; } } else { foreach ($arr[$i] as $value) { $td .= "<tr>"; $td .= "<td>".$value['dishesuser']."</td>"; $td .= "<td>".$value['dishes']."</td>"; $td .= "<td>".$value['price']."</td>"; $td .= "<td>".$value['number']."</td>"; $td .= "<td>".$value['number']*$value['price']."</td>"; $td .= "<td>".$value['beizhu']."</td>"; if ($value['state'] == 1) { $td .= "<td>订单已完成</td>"; } else { $td .= "<td>订单未完成</td>"; } $td .= "</tr>"; } } echo $td; } ?>
                                     
                                 </table>
                                 <?php if($state == 0 and $count != 0): ?><button class="btn btn-default" id="btn">批量修改</button><?php endif; ?>
@@ -122,7 +122,23 @@
                                     <td><?php echo ($vo["tablenumber"]); ?></td>
                                     <td><?php echo ($vo["number"]); ?></td>
                                 </tr><?php endforeach; endif; ?>
-                        </table><?php endif; ?>
+                        </table>
+                        <nav aria-label="Page navigation">
+                            <input id="total" type="hidden" value="<?php echo ($total); ?>">
+                            <ul class="pagination">
+                                <li class="btn-prev">
+                                    <span href="" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </span>
+                                </li>
+                                <?php echo ($pagelist); ?>
+                                <li class="btn-next">
+                                    <span href="" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </span>
+                                </li>
+                            </ul>
+                        </nav><?php endif; ?>
                     <?php if($dataid == 'dataid'): ?><a class="btn btn-default" href="/order/index.php/Index/adddishes" target="order">添加菜品</a>
                         <table class="table table-striped table-bordered  table-hover table-condensed">
                             <tr>
@@ -130,7 +146,7 @@
                             </tr>
                             <?php if(is_array($caidata)): foreach($caidata as $key=>$vo): ?><tr>
                                     <td><?php echo ($vo["dishes"]); ?></td>
-                                    <td><?php echo ($vo["dishes"]); ?></td>
+                                    <td><img src="<?php echo ($vo["thumb"]); ?>" alt="" height="50"></td>
                                     <td><?php echo ($vo["packagename"]); ?></td>
                                     <td><?php echo ($vo["price"]); ?></td>
                                     <td><a href="">编辑</a><a href="/order/index.php/Index/anchu/id/<?php echo ($vo["id"]); ?>">删除</a> </td>
@@ -155,12 +171,14 @@
                     <?php if($packageid == 'packageid'): ?><a class="btn btn-default" href="/order/index.php/Index/addpackage" target="order">添加套餐</a>
                         <table class="table table-striped table-bordered  table-hover table-condensed">
                             <tr>
-                                <td>名字</td><td>类别</td><td>价格</td><td>操作</td>
+                                <td>名字</td><td>缩略图</td><td>菜单</td><td>类别</td><td>价格</td><td>操作</td>
                             </tr>
                             <?php if(is_array($package)): foreach($package as $key=>$vo): ?><tr>
+                                    <td><?php echo ($vo["packagename"]); ?></td>
+                                    <td><img src="<?php echo ($vo["thumb"]); ?>" alt=""></td>
                                     <td><?php echo ($vo["dishes"]); ?></td>
                                     <td><?php if($vo["package"] == '1'): ?>套餐<?php endif; ?></td>
-                                    <td><?php echo ($vo["packagename"]); ?></td>
+                                    <td><?php echo ($vo["price"]); ?></td>
                                     <td><a href="">编辑</a><a href="/order/index.php/Index/anchu/id/<?php echo ($vo["id"]); ?>">删除</a> </td>
                                 </tr><?php endforeach; endif; ?>
                         </table>

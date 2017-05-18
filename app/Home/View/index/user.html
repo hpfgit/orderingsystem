@@ -182,6 +182,22 @@
                                 </tr>
                             </foreach>
                         </table>
+                        <nav aria-label="Page navigation">
+                            <input id="total" type="hidden" value="{$total}">
+                            <ul class="pagination">
+                                <li class="btn-prev">
+                                    <span href="" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </span>
+                                </li>
+                                {$pagelist}
+                                <li class="btn-next">
+                                    <span href="" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </span>
+                                </li>
+                            </ul>
+                        </nav>
                     </if>
                     <if condition="$dataid eq 'dataid'">
                         <a class="btn btn-default" href="/order/index.php/Index/adddishes" target="order">添加菜品</a>
@@ -192,7 +208,7 @@
                             <foreach name="caidata" item="vo">
                                 <tr>
                                     <td>{$vo.dishes}</td>
-                                    <td>{$vo.dishes}</td>
+                                    <td><img src="{$vo.thumb}" alt="" height="50"></td>
                                     <td>{$vo.packagename}</td>
                                     <td>{$vo.price}</td>
                                     <td><a href="">编辑</a><a href="/order/index.php/Index/anchu/id/{$vo.id}">删除</a> </td>
@@ -220,13 +236,15 @@
                         <a class="btn btn-default" href="/order/index.php/Index/addpackage" target="order">添加套餐</a>
                         <table class="table table-striped table-bordered  table-hover table-condensed">
                             <tr>
-                                <td>名字</td><td>类别</td><td>价格</td><td>操作</td>
+                                <td>名字</td><td>缩略图</td><td>菜单</td><td>类别</td><td>价格</td><td>操作</td>
                             </tr>
                             <foreach name="package" item="vo">
                                 <tr>
+                                    <td>{$vo.packagename}</td>
+                                    <td><img src="{$vo.thumb}" alt=""></td>
                                     <td>{$vo.dishes}</td>
                                     <td><if condition="$vo.package eq '1'">套餐</if></td>
-                                    <td>{$vo.packagename}</td>
+                                    <td>{$vo.price}</td>
                                     <td><a href="">编辑</a><a href="/order/index.php/Index/anchu/id/{$vo.id}">删除</a> </td>
                                 </tr>
                             </foreach>

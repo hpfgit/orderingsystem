@@ -1,0 +1,1 @@
+a:8:{i:0;s:3:"oid";i:1;s:9:"dishesnum";i:2;s:10:"dishesuser";i:3;s:6:"number";i:4;s:5:"state";i:5;s:6:"beizhu";s:3:"_pk";s:3:"oid";s:5:"_type";a:6:{s:3:"oid";s:16:"int(11) unsigned";s:9:"dishesnum";s:11:"varchar(11)";s:10:"dishesuser";s:11:"varchar(30)";s:6:"number";s:7:"int(11)";s:5:"state";s:6:"int(1)";s:6:"beizhu";s:12:"varchar(255)";}}

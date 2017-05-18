@@ -24,6 +24,7 @@ class IndexController extends Controller {
             }
         }
         $this->display('login');
+//        $this->Verify();
     }
     public function login() {
         $model = M('order');
@@ -159,12 +160,9 @@ class IndexController extends Controller {
         }
         $arr1 = array_unique($arr1);
         foreach ($arr1 as $item) {
-//            foreach ($item as $item) {
                 $dishesnum = $model->where("dishesuser='$item'")->select();
-                if (!$dishesnum) {echo "123";}
                 $dishesnum = $dishesnum[0]["dishesnum"];
                 $arr[$num++] = $kong->query("SELECT * FROM `menu` m INNER JOIN `order` o ON m.id IN ($dishesnum) WHERE o.dishesuser='$item' AND o.state=$state");
-//            }
         }
         $arr = array_filter($arr);
         sort($arr,SORT_NATURAL);
@@ -230,21 +228,24 @@ class IndexController extends Controller {
             $upload->maxSize = 1024 * 1024 * 1024;
             $upload->subName = date("Ymd");
             $upload->exts = array('jpg', 'gif', 'png', 'jpeg');
-            $upload->savePath = "/thumb/";
+            $upload->savePath = "/source/";
             $info = $upload->upload();
             if (!$info) {//  上传错误提示错误信息
                 $this->error($upload->getError());
             } else {//  上传成功
                 foreach ($info as $key => $value) {
-                    $path = "/Uploads" . $value["savepath"] . $value["savename"];
-                    $thumbpath = "/Uploads" . $value["savepath"] ."thumb". $value["savename"];
+                    $path = "./Uploads" . $value["savepath"] . $value["savename"];
+                    $thumbpath = "./Uploads/thumb/". $value["savename"];
+                    $imgpath = "/order/Uploads" . $value["savepath"] . $value["savename"];
+                    $imgthumbpath = "/order/Uploads/thumb/". $value["savename"];
                 }
                 $this->thumb($path,$thumbpath);
                 if (!empty($_POST)) {
                     $model = M("menu");
-                    $data["thumb"] = $thumbpath;
+                    $data["thumb"] = $imgpath;
                     $data["dishes"] = I("post.dishes");
                     $data["package"] = 0;
+                    $data["sourceimg"] = $imgthumbpath;
                     $data["category"] = I("category");
                     $data["price"] = I("post.price");
                     $ret = $model->data($data)->add();
@@ -381,11 +382,22 @@ class IndexController extends Controller {
     // 餐桌管理
     public function tablemanager() {
         $model = M("tablenumbers");
-        $ret = $model->select();
-        if ($ret) {
-            $this->assign("table",$ret)->assign("tableid","tableid");
+        $page = $this->GetPage();
+        $count = $model->count();
+        $pagedata = 5;
+        $pagenum = ceil($count/$pagedata);
+        $table = $model->page($page,$pagedata)->select();
+        if ($table) {
+            $this->assign("table",$table)->assign("tableid","tableid")->assign("total",$pagenum)->assign("controller","tablemanager");
         }
+        $this->PageList($page,$pagenum,0,'tablemanager');
         $this->display('user');
+    }
+    // 验证码
+    public function Verify() {
+        ob_clean();
+        $Verify = new \Think\Verify();
+        $Verify->entry();
     }
     //获取地址
     public function GetUrl() {
